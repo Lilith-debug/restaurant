@@ -1,3 +1,13 @@
+#tab-menu {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+li {
+    list-style-type: none;
+}
+
 #headline {
     display: flex;
     gap: 24px;
