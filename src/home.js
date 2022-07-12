@@ -13,12 +13,12 @@ const loadHome = (() => {
     tabMenu.appendChild(home);
 
     const menu = document.createElement("li");
-    home.setAttribute("id", "menu");
+    menu.setAttribute("id", "menu");
     menu.textContent = "Menu";
     tabMenu.appendChild(menu);
 
     const contact = document.createElement("li");
-    home.setAttribute("id", "contact");
+    contact.setAttribute("id", "contact");
     contact.textContent = "Contact";
     tabMenu.appendChild(contact);
 
