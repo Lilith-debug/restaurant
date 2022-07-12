@@ -31,11 +31,11 @@ const loadContact = (() => {
 
     content.appendChild(headline);
 
-    const contactInfo = document.createElement("div");
+    const contactInfo = document.createElement("ul");
 
-    const data = ["0810-555-333", "Av. de Mayo 55"]
+    const data = ["Phone: 0810-555-333", "Address: Av. de Mayo 55"]
     data.forEach((item) => {
-        const para = document.createElement("p");
+        const para = document.createElement("li");
         para.textContent = item;
         contactInfo.appendChild(para);
     });

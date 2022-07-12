@@ -32,7 +32,8 @@ const loadMenu = (() => {
     content.appendChild(headline);
 
 
-    const restaurantMenu = document.createElement("div");
+    const restaurantMenu = document.createElement("ul");
+    restaurantMenu.setAttribute("id", "restaurant-menu");
 
     const data = ["10 Piece Chicken",
     "10 pieces of our freshly prepared chicken.",
@@ -40,12 +41,13 @@ const loadMenu = (() => {
     "14 pieces of our freshly prepared chicken."];
 
     data.forEach((item) => {
-        const para = document.createElement("p");
+        const para = document.createElement("li");
         para.textContent = item;
         restaurantMenu.appendChild(para);
     });
     
     content.appendChild(restaurantMenu);
+    console.log(restaurantMenu);
     
 });
 

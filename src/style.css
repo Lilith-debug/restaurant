@@ -1,3 +1,9 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #tab-menu {
     display: flex;
     justify-content: center;
@@ -16,4 +22,12 @@ li {
 img {
     height: 64px;
     width: 64px;
+}
+
+#restaurant-menu li:nth-child(odd) {
+    font-weight: bold;
+}
+
+#restaurant-menu li:nth-child(even) {
+    margin-bottom: 12px;
 }
